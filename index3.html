@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Production - Start Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #0d6efd;
+      margin-bottom: 40px;
+      font-weight: 600;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+
+    .btn-custom {
+      width: 280px;
+      margin: 12px;
+      padding: 14px;
+      font-size: 1.1rem;
+      border-radius: 12px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .btn-custom:hover {
+      transform: scale(1.06);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      color: #fff !important;
+    }
+
+    .btn-primary:hover {
+      background-color: #0b5ed7;
+    }
+
+    .btn-success:hover {
+      background-color: #157347;
+    }
+
+    .btn-warning:hover {
+      background-color: #d39e00;
+    }
+
+    @media (max-width: 576px) {
+      .btn-custom {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🚀 Smart Production Dashboard</h2>
+
+  <a href="index4.html" class="btn btn-primary btn-custom">🔢 Product Cost Calculator</a>
+  <a href="index5.html" class="btn btn-success btn-custom">📊 View Pie Chart</a>
+  <a href="index6.html" class="btn btn-warning btn-custom">💡 Compare Alternatives</a>
+
+</body>
+</html>
